@@ -3,14 +3,13 @@ import React, { useState } from "react";
 const FilterState = ({ states, setSelectedState }: any) => {
   const [selectedValue, setSelectedValue] = useState("");
 
-  const handleStateChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+  const handleStateChange = (event: any) => {
     const value = event.target.value;
-    setSelectedValue(value); 
-    setSelectedState(value); 
+    setSelectedValue(value);
+    setSelectedState(value);
   };
 
   const handleSelectClick = () => {
-    
     setSelectedValue("");
     setSelectedState("");
   };
