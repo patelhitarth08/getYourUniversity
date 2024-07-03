@@ -52,7 +52,7 @@ export default function Home() {
     <main className="mx-auto max-w-5xl px-4 py-8">
       <title>GetYourUniversity</title>
       <h1 className="text-3xl font-bold text-start mb-8 text-blue-600">
-        Find Your University
+        GetYourUniversity
       </h1>
 
       <SearchBar setCountry={setSelectedCountry} />
