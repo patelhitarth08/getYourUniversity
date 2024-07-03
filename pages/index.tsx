@@ -50,6 +50,11 @@ export default function Home() {
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-8">
+      <title>GetYourUniversity</title>
+      <h1 className="text-3xl font-bold text-center mb-8 text-blue-600">
+        Find Your University
+      </h1>
+
       <SearchBar setCountry={setSelectedCountry} />
 
       {countryData.length > 0 && (
